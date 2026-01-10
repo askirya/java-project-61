@@ -30,3 +30,7 @@ tasks.test {
 application {
     mainClass.set("hexlet.code.App")
 }
+
+tasks.named<JavaExec>("run") {
+    standardInput = System.`in`
+}
