@@ -19,10 +19,18 @@ Brain Games на Java с CLI интерфейсом, Makefile, Gradle и SonarQu
 ```bash
 make run-dist
 
-## Демонстрация работы
+## Демонстрация работы игры Even
 
 Успешная игра (3 правильных ответа):
 ![Even Game Win](app/screenshots/even-win.png)
 
 Поражение (неправильный ответ):
 ![Even Game Lose](app/screenshots/even-lose.png)
+
+## Демонстрация работы игры Calc
+
+Успешная игра (3 правильных ответа):
+![Calc Game Win](app/screenshots/calc-win.png)
+
+Поражение (неправильный ответ):
+![Calc Game Lose](app/screenshots/calc-lose.png)
