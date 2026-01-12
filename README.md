@@ -34,7 +34,6 @@ make run-dist
 
 Поражение (неправильный ответ):
 ![Calc Game Lose](app/screenshots/calc-lose.png)
-<<<<<<< HEAD
 
 ## Демонстрация работы игры GCD
 
