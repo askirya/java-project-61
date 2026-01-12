@@ -34,3 +34,12 @@ make run-dist
 
 Поражение (неправильный ответ):
 ![Calc Game Lose](app/screenshots/calc-lose.png)
+<<<<<<< HEAD
+
+## Демонстрация работы игры GCD
+
+Успешная игра (3 правильных ответа):
+![GCD Game Win](app/screenshots/gcd-win.png)
+
+Поражение (неправильный ответ):
+![GCD Game Lose](app/screenshots/gcd-lose.png)
