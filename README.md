@@ -42,3 +42,11 @@ make run-dist
 
 Поражение (неправильный ответ):
 ![GCD Game Lose](app/screenshots/gcd-lose.png)
+
+## Демонстрация работы игры Progression
+
+Успешная игра (3 правильных ответа):
+![Progression Game Win](app/screenshots/progression-win.png)
+
+Поражение (неправильный ответ):
+![Progression Game Lose](app/screenshots/progression-lose.png)
