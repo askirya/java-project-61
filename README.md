@@ -10,43 +10,43 @@
 [![SonarQube Bugs](https://sonarcloud.io/api/project_badges/measure?project=askirya_java-project-61&metric=bugs)](https://sonarcloud.io/dashboard?id=askirya_java-project-61)
 [![SonarQube Code Smells](https://sonarcloud.io/api/project_badges/measure?project=askirya_java-project-61&metric=code_smells)](https://sonarcloud.io/dashboard?id=askirya_java-project-61)
 
-## Описание проекта
+Описание проекта
 
 Brain Games на Java с CLI интерфейсом, Makefile, Gradle и SonarQube анализом.
 
-## Запуск
+Запуск
 
 ```bash
 make run-dist
 
-## Демонстрация работы игры Even
+Демонстрация работы игры Even
 
 Успешная игра (3 правильных ответа):
-![Even Game Win](app/screenshots/even-win.png)
+[Even Game Win] (app/screenshots/even-win.png)
 
 Поражение (неправильный ответ):
-![Even Game Lose](app/screenshots/even-lose.png)
+[Even Game Lose] (app/screenshots/even-lose.png)
 
-## Демонстрация работы игры Calc
+Демонстрация работы игры Calc
 
 Успешная игра (3 правильных ответа):
-![Calc Game Win](app/screenshots/calc-win.png)
+[Calc Game Win] (app/screenshots/calc-win.png)
 
 Поражение (неправильный ответ):
-![Calc Game Lose](app/screenshots/calc-lose.png)
+[Calc Game Lose] (app/screenshots/calc-lose.png)
 
-## Демонстрация работы игры GCD
+Демонстрация работы игры GCD
 
 Успешная игра (3 правильных ответа):
-![GCD Game Win](app/screenshots/gcd-win.png)
+[GCD Game Win] (app/screenshots/gcd-win.png)
 
 Поражение (неправильный ответ):
-![GCD Game Lose](app/screenshots/gcd-lose.png)
+[GCD Game Lose] (app/screenshots/gcd-lose.png)
 
-## Демонстрация работы игры Progression
+Демонстрация работы игры Progression
 
 Успешная игра (3 правильных ответа):
-![Progression Game Win](app/screenshots/progression-win.png)
+[Progression Game Win] (app/screenshots/progression-win.png)
 
 Поражение (неправильный ответ):
-![Progression Game Lose](app/screenshots/progression-lose.png)
+[Progression Game Lose] (app/screenshots/progression-lose.png)
