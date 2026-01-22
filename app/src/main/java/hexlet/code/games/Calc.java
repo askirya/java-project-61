@@ -19,17 +19,21 @@ public class Calc {
             String operation = OPERATIONS[random.nextInt(OPERATIONS.length)];
             
             String question = num1 + " " + operation + " " + num2;
-            int result = switch (operation) {
-                case "+" -> num1 + num2;
-                case "-" -> num1 - num2;
-                case "*" -> num1 * num2;
-                default -> 0;
-            };
+            int result = calculate(num1, num2, operation);
             
             questionsAnswers[i][0] = question;
             questionsAnswers[i][1] = String.valueOf(result);
         }
         
         Engine.run(DESCRIPTION, questionsAnswers);
+    }
+    
+    private static int calculate(int num1, int num2, String operation) {
+        return switch (operation) {
+            case "+" -> num1 + num2;
+            case "-" -> num1 - num2;
+            case "*" -> num1 * num2;
+            default -> throw new RuntimeException("Unknown user input: " + operation);
+        };
     }
 }

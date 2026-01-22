@@ -1,2 +1,7 @@
+.PHONY: build
+build:
+	./gradlew build
+
+.PHONY: run-dist
 run-dist:
-	.\build\install\app\bin\app.bat
+	.\\build\\install\\app\\bin\\app.bat

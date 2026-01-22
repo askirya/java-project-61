@@ -34,7 +34,7 @@ public class App {
             case 5 -> Progression.run();
             case 6 -> Prime.run();
             case 0 -> System.out.println("See you later!");
-            default -> System.out.println("Invalid choice. Try again.");
+            default -> System.out.println("Unknown user choice: " + choice);
         }
         
         scanner.close();
