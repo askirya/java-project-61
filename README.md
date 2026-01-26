@@ -10,16 +10,21 @@
 [![SonarQube Bugs](https://sonarcloud.io/api/project_badges/measure?project=askirya_java-project-61&metric=bugs)](https://sonarcloud.io/dashboard?id=askirya_java-project-61)
 [![SonarQube Code Smells](https://sonarcloud.io/api/project_badges/measure?project=askirya_java-project-61&metric=code_smells)](https://sonarcloud.io/dashboard?id=askirya_java-project-61)
 
-Описание проекта
+## Описание проекта
 
 Brain Games на Java с CLI интерфейсом, Makefile, Gradle и SonarQube анализом.
 
-Запуск
+## Запуск
 
 ```bash
+make install
 make run-dist
+make lint
+make test
 
-Демонстрация работы игры Even
+
+
+# Демонстрация работы игры Even
 
 Успешная игра (3 правильных ответа):
 [Even Game Win] (app/screenshots/even-win.png)
