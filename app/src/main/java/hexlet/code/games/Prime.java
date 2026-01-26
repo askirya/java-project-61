@@ -5,12 +5,11 @@ import java.util.Random;
 
 public class Prime {
     private static final String DESCRIPTION =
-        "Answer 'yes' if given number is prime. Otherwise answer 'no'.";
+            "Answer 'yes' if given number is prime. Otherwise answer 'no'.";
     private static final int MAX_NUMBER = 100;
-    private static final int ROUNDS_COUNT = 3;
-    private static final int MIN_PRIME = 2;
 
     private static boolean isPrime(int n) {
+        final int MIN_PRIME = 2;
         if (n < MIN_PRIME) {
             return false;
         }
@@ -23,10 +22,10 @@ public class Prime {
     }
 
     public static void run() {
-        String[][] questionsAnswers = new String[ROUNDS_COUNT][2];
+        String[][] questionsAnswers = new String[Engine.ROUNDS_COUNT][2];
         Random random = new Random();
 
-        for (int i = 0; i < ROUNDS_COUNT; i++) {
+        for (int i = 0; i < Engine.ROUNDS_COUNT; i++) {
             int number = random.nextInt(MAX_NUMBER) + 1;
             String answer = isPrime(number) ? "yes" : "no";
 

@@ -5,16 +5,15 @@ import java.util.Random;
 
 public class Calc {
     private static final String DESCRIPTION =
-        "What is the result of the expression?";
+            "What is the result of the expression?";
     private static final int MAX_NUMBER = 25;
-    private static final int ROUNDS_COUNT = 3;
     private static final String[] OPERATIONS = {"+", "-", "*"};
 
     public static void run() {
-        String[][] questionsAnswers = new String[ROUNDS_COUNT][2];
+        String[][] questionsAnswers = new String[Engine.ROUNDS_COUNT][2];
         Random random = new Random();
 
-        for (int i = 0; i < ROUNDS_COUNT; i++) {
+        for (int i = 0; i < Engine.ROUNDS_COUNT; i++) {
             int num1 = random.nextInt(MAX_NUMBER) + 1;
             int num2 = random.nextInt(MAX_NUMBER) + 1;
             String operation = OPERATIONS[random.nextInt(OPERATIONS.length)];
