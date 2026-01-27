@@ -45,6 +45,6 @@ public class App {
             default -> System.out.println("Unknown user choice: " + choice);
         }
 
-        scanner.close(); 
+        scanner.close();
     }
 }
