@@ -4,7 +4,7 @@ import hexlet.code.Engine;
 import java.util.Random;
 
 public class Progression {
-    private static final String DESCRIPTION = 
+    private static final String DESCRIPTION =
             "What number is missing in the progression?";
     private static final int MAX_START = 20;
     private static final int MAX_STEP = 5;
@@ -19,7 +19,6 @@ public class Progression {
             int step = random.nextInt(MAX_STEP) + 1;
             int hiddenIndex = random.nextInt(PROGRESSION_LENGTH);
             int[] progression = generateProgression(start, step, PROGRESSION_LENGTH);
-            
             int correctAnswer = progression[hiddenIndex];
             progression[hiddenIndex] = -1;
 
