@@ -9,11 +9,11 @@ public class Prime {
     private static final int MAX_NUMBER = 100;
 
     private static boolean isPrime(int n) {
-        final int MIN_PRIME = 2;
-        if (n < MIN_PRIME) {
+        final int minPrime = 2;
+        if (n < minPrime) {
             return false;
         }
-        for (int i = MIN_PRIME; i <= Math.sqrt(n); i++) {
+        for (int i = minPrime; i <= Math.sqrt(n); i++) {
             if (n % i == 0) {
                 return false;
             }
